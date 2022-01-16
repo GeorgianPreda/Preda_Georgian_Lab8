@@ -28,7 +28,7 @@ namespace Preda_Georgian_Lab8.Pages.Categories
         [BindProperty]
         public Category Category { get; set; }
 
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)

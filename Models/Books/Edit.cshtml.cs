@@ -78,12 +78,10 @@ namespace Preda_Georgian_Lab8.Pages.Books
             PopulateAssignedCategoryData(_context, bookToUpdate);
             return Page();
         }
-    }
-}
-
-private bool BookExists(int id)
+        private bool BookExists(int id)
         {
             return _context.Book.Any(e => e.ID == id);
         }
     }
 }
+
